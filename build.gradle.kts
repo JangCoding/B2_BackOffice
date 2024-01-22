@@ -41,6 +41,7 @@ dependencies {
 
     // H2 database
     implementation("com.h2database:h2")
+    runtimeOnly ("com.h2database:h2")
 }
 
 tasks.withType<KotlinCompile> {
